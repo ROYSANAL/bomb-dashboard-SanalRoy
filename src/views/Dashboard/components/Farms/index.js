@@ -26,7 +26,7 @@ const Farms = () => {
 
         {account ? (
           activeBankIds.map((bankId) => {
-            return <Bank bankId={bankId} />;
+            return <Bank key={bankId} bankId={bankId} />;
           })
         ) : (
           <UnlockWallet />
