@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, Button, Grid, Paper } from '@material-ui/core';
+import { Box, Grid, Paper } from '@material-ui/core';
 
 import useBombStats from '../../../hooks/useBombStats';
 import useBondStats from '../../../hooks/useBondStats';

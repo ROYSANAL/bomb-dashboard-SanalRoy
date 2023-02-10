@@ -116,7 +116,7 @@ const Boardroom = () => {
       <Grid container style={{ padding: '0.5rem' }}>
         <Grid sm={3}>
           <div>Daily Returns</div>
-          <h4>{boardroomAPR.toFixed(2)}%</h4>
+          <h4>{(boardroomAPR / 365).toFixed(2)}%</h4>
         </Grid>
         <Grid sm={3}>
           <div>Your Stake</div>
